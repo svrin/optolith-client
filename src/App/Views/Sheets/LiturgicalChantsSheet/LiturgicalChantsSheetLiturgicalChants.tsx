@@ -149,7 +149,9 @@ export const LiturgicalChantsSheetLiturgicalChants: React.FC<Props> = props => {
                       </Textfit>
                     </td>
                     <td className="ic">{icToStr (icFromJs (LCWRA_.ic (e)))}</td>
-                    <td className="effect" />
+                    <td className="effect">
+                      <Textfit max={11} min={6}>{LCWRA_.effect (e).split (".")[0]}</Textfit>
+                    </td>
                     <td className="ref" />
                   </tr>
                 )

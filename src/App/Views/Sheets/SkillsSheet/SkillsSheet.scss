@@ -10,10 +10,11 @@
 	.upper {
 		display: flex;
 		width: 100%;
-    align-items: flex-start;
+    	align-items: flex-start;
 
 		table {
 			width: 50%;
+			table-layout: fixed;
 		}
 
 		table:first-child td:last-child {

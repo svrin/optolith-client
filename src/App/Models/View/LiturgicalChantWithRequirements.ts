@@ -39,6 +39,8 @@ export const LiturgicalChantWithRequirementsA_ = {
   durationShort: pipe (LCWRA.wikiEntry, LCA.durationShort),
   tradition: pipe (LCWRA.wikiEntry, LCA.tradition),
   aspects: pipe (LCWRA.wikiEntry, LCA.aspects),
+  effect: pipe (LCWRA.wikiEntry, LCA.effect),
+  src: pipe (LCWRA.wikiEntry, LCA.src),
 }
 
 export const LiturgicalChantWithRequirementsL = makeLenses (LiturgicalChantWithRequirements)
